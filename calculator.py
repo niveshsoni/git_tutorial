@@ -14,3 +14,9 @@ def multiply(a, b):
 
 if __name__ == "__main__":
     print("3 * 4 =", multiply(3, 4))
+
+def square(a):
+    return a * a
+
+if __name__ == "__main__":
+    print("5 squared =", square(5))
