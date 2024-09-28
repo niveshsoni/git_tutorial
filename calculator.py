@@ -8,3 +8,9 @@ if __name__ == "__main__":
     print("Simple Calculator")
     print("1 + 2 =", add(1, 2))
     print("5 - 3 =", subtract(5, 3))
+
+def multiply(a, b):
+    return a * b
+
+if __name__ == "__main__":
+    print("3 * 4 =", multiply(3, 4))
